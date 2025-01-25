@@ -9,7 +9,7 @@ Browse all posts by month and year.
 {% for yearMonth in postsByYearMonth %}
   <h2>{{ yearMonth.name }}</h2>
     {% for post in yearMonth.items %}
-     <a href="{{ post.url }}">{{ post.title }}</a>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3> 
     {% endfor %}
   
 {% endfor %}
