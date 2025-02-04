@@ -3,13 +3,19 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  padding-top: var(--spacer);
+  padding-top: var(--spacer-1);
   padding-bottom: var(--spacer);
   margin-bottom: var(--spacer-3);
 }
 
 .masthead-title {
-  margin-bottom: 0;
+  margin-bottom: .25rem;
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 
   a {
     color: inherit;
@@ -20,6 +26,7 @@
     font-weight: 400;
     opacity: 0.5;
   }
+
 }
 
 // Navbar styles

@@ -1,5 +1,5 @@
 # Setup
-title: Dark Poole
+title: My Blog
 url: https://getpoole.com
 paginate: 1
 baseurl: ""
@@ -41,7 +41,7 @@ version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Blog
+  - title: Archive
     url: /archive
 
   - title: About
